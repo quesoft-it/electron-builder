@@ -226,7 +226,7 @@ importers:
   packages/builder-util-runtime:
     specifiers:
       '@types/debug': 4.1.7
-      '@types/sax': 1.2.3
+      '@types/sax': 1.2.4
       debug: ^4.3.2
       sax: ^1.2.4
     dependencies:
@@ -234,7 +234,7 @@ importers:
       sax: 1.2.4
     devDependencies:
       '@types/debug': 4.1.7
-      '@types/sax': 1.2.3
+      '@types/sax': 1.2.4
 
   packages/dmg-builder:
     specifiers:
@@ -2416,7 +2416,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/test-result': 27.4.2
-      graceful-fs: 4.2.8
+      graceful-fs: 4.2.9
       jest-haste-map: 27.4.4
       jest-runtime: 27.4.4
     transitivePeerDependencies:
@@ -2770,8 +2770,8 @@ packages:
   /@types/prettier/2.4.2:
     resolution: {integrity: sha512-ekoj4qOQYp7CvjX8ZDBgN86w3MqQhLE1hczEJbEIjgFEumDy+na/4AJAbLXfgEWFNB2pKadM5rPFtuSGMWK7xA==}
 
-  /@types/sax/1.2.3:
-    resolution: {integrity: sha512-+QSw6Tqvs/KQpZX8DvIl3hZSjNFLW/OqE5nlyHXtTwODaJvioN2rOWpBNEWZp2HZUFhOh+VohmJku/WxEXU2XA==}
+  /@types/sax/1.2.4:
+    resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
       '@types/node': 16.11.12
     dev: true
@@ -3371,7 +3371,7 @@ packages:
       babel-plugin-istanbul: 6.1.1
       babel-preset-jest: 27.4.0_@babel+core@7.16.0
       chalk: 4.1.2
-      graceful-fs: 4.2.8
+      graceful-fs: 4.2.9
       slash: 3.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5086,6 +5086,7 @@ packages:
     resolution: {integrity: sha512-SVeeyiOeinV5JCPHXMdKOgK1YVbak/4+8WL2rBnfqRYpA5FaeFaQnQWb25x628am1w70CbipGDv9S51biph63A==}
     engines: {node: '>=8'}
     os: [darwin]
+    deprecated: 'Disk image license agreements are deprecated by Apple and will probably be removed in a future macOS release. Discussion at: https://github.com/argv-minus-one/dmg-license/issues/11'
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -6664,7 +6665,7 @@ packages:
       ci-info: 3.3.0
       deepmerge: 4.2.2
       glob: 7.2.0
-      graceful-fs: 4.2.8
+      graceful-fs: 4.2.9
       jest-circus: 27.4.4
       jest-environment-jsdom: 27.4.4
       jest-environment-node: 27.4.4
@@ -7044,7 +7045,7 @@ packages:
       '@types/node': 16.11.12
       chalk: 4.1.2
       ci-info: 3.3.0
-      graceful-fs: 4.2.8
+      graceful-fs: 4.2.9
       picomatch: 2.3.0
 
   /jest-validate/27.4.2:
